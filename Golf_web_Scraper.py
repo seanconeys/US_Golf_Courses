@@ -62,7 +62,7 @@ states = [
 ('Wisconsin', 'WI'),
 ('Wyoming', 'WY')]
 
-#WHaatt does this Custom compare do Why dont I document BEtter!!!!
+#cmp function is used as a key for a sort function in line 88 to sort generated urls alphabetically
 def cmp(a, b):
     a = int(a[-10:-5:1])
     b = int( b[-10:-5:1])
